@@ -1,0 +1,109 @@
+body
+{
+    background-color: rgb(212, 209, 209);
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+h3
+{
+    color: white;
+}
+
+
+aside
+{
+  float: left;
+  font-size: 20px;
+  border: 2px solid rgb(255, 254, 254);
+  background-color: rgb(182, 189, 188);
+  padding:auto;
+  margin: 10px;
+  text-align: center;
+  width: 20%;
+  height: 50%;
+
+}
+
+aside img
+{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+aside label
+{
+  color: white;
+}
+
+
+
+aside input
+{
+    padding: 5px;
+    text-align: center;
+    border: none ;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+aside button
+{
+    padding: 10px;
+    margin: 10px;
+    background-color: teal;
+    border: none;
+    color: white;
+}
+
+main
+{
+    
+  float: right;
+  border: 1px solid white;
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  text-align: center;
+  
+}
+
+main table
+{
+  border: 1px solid rgb(250, 249, 249);
+  width: 100%;
+  text-align: center;
+
+}
+
+main table th
+{
+  background-color: rgb(145, 141, 148);
+  padding: 10px;
+  margin: 10px;
+}
+
+td
+{
+ background-color: brown;
+}
+
+td:hover
+{
+    background-color: blue;
+}
+
+.clr
+{
+    clear: both;
+}
